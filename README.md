@@ -9,6 +9,6 @@ As there is no official API for Pandora and the unofficial API hasn't been worki
 
 Description: If you're like me, you have many likes on Pandora. As of writing this, I have over 700 thumbed up tracks. Pandora has made it quite difficult to get access to this data. I believe they hide this, so users cannot easily take their data and go to compeitors (Spotify, youtube playlist...). Anyways, I wrote this scipt to assist users with grabbing every track that they've thumbed up. Enjoy!
 
-How To Execute: In Google Chrome press [Ctrl + Shift + J] and in the console, copy and paste the script's source code. Make sure you replace number_of_thumbed_up_songs with the number of thumbed up songs you have and press enter. Once the script finishes, copy and paste the songs from the console output.
+How To Execute: In Google Chrome press [Ctrl + Shift + J] and in the console, copy and paste the script's source code. 
 
-Problems: The script currently takes a long time and eats a lot of memory. (Took over 20 minutes and 1.3 GB of RAM)
+TODO: Once all songs are visible, print out the songs in the format "title - artist" to the console.

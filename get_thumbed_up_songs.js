@@ -6,7 +6,6 @@ console.log("Total Iterations: " + max);
 
 var showMore = function(){
 	$('.backstage .show_more').trigger('click');
-	$("html, body").animate({ scrollTop: $(document).height() }, "fast");
 	
 	console.log("Iterations Complete: " + counter + " / " + max);
 	counter++;
@@ -25,7 +24,9 @@ var showMore = function(){
 			console.log(title + ' - ' + artist);
 		 }
 		 
+		 $("html, body").animate({ scrollTop: $(document).height() }, "fast");
 		 alert(number_of_thumbed_up_songs + " tracks recorded");
+		 
 	}
 }
 

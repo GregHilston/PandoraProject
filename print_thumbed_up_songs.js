@@ -1,4 +1,4 @@
-tracks = $('div#track_like_pages div.section');
+$tracks = $('div#track_like_pages div.section');
 
 for (var i = 0; i < $tracks.length; i++) {
 	var t = $tracks.eq(i);

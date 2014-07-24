@@ -1,14 +1,19 @@
 PandoraProject
 ==============
+<i>Note: Tested on Google Chrome Version 36.0.1985.125 </i>
 
 As there is no official API for Pandora and the unofficial API hasn't been working as expected, I'll be writing scripts to grab the data I need from Pandora.
+If you're like me, you have many likes on Pandora. As of writing this, I have over 700 thumbed up tracks. Pandora has made it quite difficult to get access to this data. I believe they hide this, so users cannot easily take their data and go to competitors such as Spotify or making a youtube playlist. These scripts should assist you in pulling data from Pandora. Enjoy!
+
+How To Execute: In Google Chrome press [Ctrl + Shift + J] and in the console
+
+<h4>Automate Show More</h4>
+
+Pandora hides your likes behind a "show more" button. Upon each click, the next five songs are displayed.
+
+This script will automate the process of clicking the "show more" button as many times as needed.
 
 
-<h4>Grab Thumbed Up Tracks</h4>
-<i>Note: Tested on Google Chrome Version 36.0.1985.125 on 7/22/2014</i>
+<h4>Get Thumbed Up Tracks</h4>
 
-Description: If you're like me, you have many likes on Pandora. As of writing this, I have over 700 thumbed up tracks. Pandora has made it quite difficult to get access to this data. I believe they hide this, so users cannot easily take their data and go to compeitors (Spotify, youtube playlist...). Anyways, I wrote this scipt to assist users with grabbing every track that they've thumbed up. Enjoy!
-
-How To Execute: In Google Chrome press [Ctrl + Shift + J] and in the console, copy and paste the script's source code. 
-
-TODO: Once all songs are visible, print out the songs in the format "title - artist" to the console.
+Prints to the console every thumbed up song on the page. Executing this script after "Automate Show More", will print every song you've thumbed up.

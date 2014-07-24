@@ -9,7 +9,7 @@ How To Execute: In Google Chrome press [Ctrl + Shift + J] and in the console
 
 <h4>Automate Show More</h4>
 
-Pandora hides your likes behind a "show more" button. Upon each click, the next five songs are displayed.
+When browsing http://www.pandora.com/profile/likes/[username] Pandora hides your likes behind a "show more" button. Upon each click, the next five songs are displayed.
 
 This script will automate the process of clicking the "show more" button as many times as needed.
 

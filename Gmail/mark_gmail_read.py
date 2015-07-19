@@ -4,7 +4,7 @@ import imaplib
 
 PASSWORD = ""
 
-with open ("~/Git/PandoraProject/Conf/Gmail_Password.txt", "r") as myfile:
+with open ("/home/pi/Git/PandoraProject/Conf/Gmail_Password.conf", "r") as myfile:
     PASSWORD=myfile.read().replace('\n', '')
 
 obj = imaplib.IMAP4_SSL('imap.gmail.com', '993')

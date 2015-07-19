@@ -7,7 +7,7 @@ import feedparser
 USERNAME = "GrehgPi@gmail.com"
 PASSWORD = ""
 
-with open ("~/Git/PandoraProject/Conf/Gmail_Password.txt", "r") as myfile:
+with open ("/home/pi/Git/PandoraProject/Conf/Gmail_Password.conf", "r") as myfile:
     PASSWORD=myfile.read().replace('\n', '')
 
 response = feedparser.parse("https://" + USERNAME + ":" + PASSWORD + "@mail.google.com/gmail/feed/atom")

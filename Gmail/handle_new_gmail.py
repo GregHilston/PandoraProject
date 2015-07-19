@@ -28,7 +28,7 @@ def extract_body(payload):
 conn = imaplib.IMAP4_SSL("imap.gmail.com", 993)
 PASSWORD = "";
 
-with open ("~/Git/PandoraProject/Conf/Gmail_Password.txt", "r") as myfile:
+with open ("/home/pi/Git/PandoraProject/Conf/Gmail_Password.conf", "r") as myfile:
     PASSWORD=myfile.read().replace('\n', '')
 
 conn.login("GrehgPi@gmail.com", PASSWORD)
